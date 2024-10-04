@@ -1,0 +1,12 @@
+
+Access Modifiers Definition
+
+It is like a gatekeeper, that controls who has access to elements such as classes,
+constructors, methods, and attributes.
+
+Not all access modifiers can be applied to all the Java elements. 
+
+1. private: constructors, methods, and attributes.
+2. default / package: class, constructors, methods, and attributes.
+3. protected: methods, and attributes.
+4. public: class, constructors, methods, and attributes.
