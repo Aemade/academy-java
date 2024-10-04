@@ -1,4 +1,4 @@
-package com.bptn.course._bigcoding_week01;
+package com.bptn.course._friday_bigcoding_week01;
 
 import java.util.Scanner;
 public class Calculator {
