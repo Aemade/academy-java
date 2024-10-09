@@ -1,0 +1,49 @@
+
+COLLECTIONS
+***********
+
+Definition:
+
+A Java Collection is a data structure.
+
+A Data Structure, is data organized in a particular way plus a set operations such as read, 
+insert, update, delete, sort, etc, to perform on these data.  
+
+Generally speaking, there is no such thing as the best data structure,
+but specific data structures perform better than others, depending on the situation.
+
+A Java Collection is comprised of objects of the same type (same as in Arrays)
+
+
+Linus Torvalds
+
+"Bad programmers worry about the code. 
+ Good programmers worry about data structures and their relationships."
+
+ 
+LISTS
+*****
+
+- Keep the insertion order
+- Accepts duplicates
+
+
+- Types
+
+1. ArrayList:
+   - Backed by Arrays
+   - Java creates a new internal Array to hold elements if more space is needed.
+   - Are faster (elements in sequence)
+   - Perform better than LinkedList if we don't need to modify a long list frequently (insert, remove).
+
+2. LinkedList
+   - Double linked chain of nodes.
+   - Are slower (double links)
+   - Perform better than ArrayList if we need to modify a long list frequently (insert, remove).
+   
+   
+SETS
+****
+
+- Don't keep the insertion order
+- All the elements must be unique
