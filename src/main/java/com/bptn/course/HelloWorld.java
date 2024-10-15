@@ -1,4 +1,4 @@
-package com.bptn.course.hello;
+package com.bptn.course;
 
 public class HelloWorld {
 
