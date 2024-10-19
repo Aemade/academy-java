@@ -1,0 +1,24 @@
+Functional Programming (As of Java 8)
+
+Programming Style where we specify logic using functions (lambdas).
+This programming style is based formal system in mathematical logic called LambdaCalculus
+
+(JavaSript: Arrow Functions)
+
+
+F:  A -> B
+
+Note.- Everything that we can do with functional programming can be done with object oriented
+       programming.
+       We can use OOP and functional programming in the same program. So they coexist.
+
+
+Benefits.- In some situations, functional programming makes your code more compact, cleaner, maintenable, nicer. But
+that is not always the case. Lambda Expressions can be used to pass code around.
+
+Functions vs Methods
+********************
+
+Functions- Are blocks of code that we can call that don't depend on an Object.
+
+Methods - Are blocks of code that we can call that depend on an Object. 
