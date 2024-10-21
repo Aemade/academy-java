@@ -39,13 +39,13 @@ public class InsertionSort {
 	        }
 	    }
 	}
-/*code explanation: As the coding assignment is inserting and sorting an array, our method first checks 
-if the array is null or containes any element. 
+/*code explanation: As the coding assignment is inserting and sorting an array, 
+our method first checks if the array is null or contain any element. 
 If the array length is less than or equals to one our return will be performed without sorting.
 
 As the insertion sort assumes that the first element is already sorted, 
 so it starts comparing from the second element and goes through the end of the array.
-(the outher loop performs this task)
+(the outer loop performs this task)
 
 The inner loop compares the current element with the elements before it, arr[j] > current means 
 the element at index j is greater than the current element, so it needs to be shifted right to make space.
@@ -53,4 +53,8 @@ the element at index j is greater than the current element, so it needs to be sh
 After shifting, it inserts the current element into its correct position, and finally, 
 
 The Main Method demonstrates sorting an example array and printing the sorted result.
+
+We discussed similar examples in class and had refered them on my this challage. 
+I expeciance some challage on while loop (while (j >= 0 && arr[j] > current)), 
+and note was taken to set my logical boundaries and understanding how the insertion sort method works.
 */

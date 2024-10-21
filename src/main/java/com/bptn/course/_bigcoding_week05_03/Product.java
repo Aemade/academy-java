@@ -53,3 +53,23 @@ public class Product {
         System.out.println("Number of products with price less than 30000: " + count);
     }
 }
+
+/*Code Explanation:
+we declare three instance variables: id, name, and price in our product class.
+
+As the variables initialize, our method countProducts) will take a List<Product>.
+
+Using Java Stream we will filter products with a price less than 30000 and returns the count.
+
+We will add the listed Product objects to productsList, which then being called by countProducts()
+
+The  countProducts() will count of products meeting the criteria and print it out
+
+The key take away from this activity was, Streams can simplify list processing, making it more efficient and readable 
+when we compared to traditional loops. 
+I had a bit of challenge to set correctly the     return productsList.stream()
+                           .filter(product -> product.price < 30000)
+                           .count(); statement 
+
+Referring all the lessons and Understanding the concept were be helpful for the task.
+*/
