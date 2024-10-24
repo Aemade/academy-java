@@ -32,17 +32,18 @@ package com.bptn.course._bigcoding_week05_04;
 	        System.out.println("Students Map: "+ studentMap);
 	    }
 	}
+	
 	/*
-	The code has sucessefuly convert the List into a Map with the student ID as the key and student object as the value. 
+	The code has successfully convert the List into a Map with the student ID as the key and student object as the value. 
 
 	Applying method references (e.g., Student::getId) and lambda expressions 
 	(e.g., student -> student) was a significant part of this task, as they are crucial when working 
 	with Java Streams.
 
-	I had a challage to properly set thi line of code
+	I had a challenge to properly set this line of code
 	 Map<Integer, Student> studentMap = students.stream()
 	                .collect(Collectors.toMap(Student::getId, student -> student));
 	        return studentMap;
 
-	its maily due to missing/error on strems and Collectors.
+	its mainly due to missing/error on streams and Collectors.
 	*/
