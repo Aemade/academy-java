@@ -12,7 +12,7 @@ public class _02_SqlInjection {
 		
 		String dbURL = "jdbc:postgresql://localhost:5432/bptn";
 		String dbUsername = "postgres";
-		String dbPassword = "pg123";
+		String dbPassword = "Bebest12!";
 		
 		// Good Data
 //		String name = "Charlie";

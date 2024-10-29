@@ -25,6 +25,13 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.10.3</version>
     </dependency>
+    
+        <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.3</version>
+    </dependency>
+    
     <dependency>
     	<groupId>com.bptn</groupId>
     	<artifactId>bptn-06-java</artifactId>

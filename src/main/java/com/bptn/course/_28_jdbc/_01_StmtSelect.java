@@ -17,7 +17,7 @@ public class _01_StmtSelect {
 		
 		String dbURL = "jdbc:postgresql://localhost:5432/bptn";
 		String dbUsername = "postgres";
-		String dbPassword = "pg123";
+		String dbPassword = "Bebest12!";
 		
 		List<Student> students = new ArrayList<>();
 		
